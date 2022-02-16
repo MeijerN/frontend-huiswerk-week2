@@ -43,11 +43,6 @@ form {
 .five article {
     box-sizing: border-box;
     flex-basis: 400px;
-}
-
-#flex-article {
-    box-sizing: border-box;
-    flex-basis: 400px;
     flex-grow: 1;
-    max-width: 800px;
+    flex-shrink: 0;
 }
